@@ -1,0 +1,177 @@
+
+Failures:
+1) Get Prime Numbers tests  Case for some false values should return '[]' for nu
+ll
+  Message:
+    TypeError: myApp.getPrime is not a function
+  Stack:
+    TypeError: myApp.getPrime is not a function
+        at Object.<anonymous> (C:\Users\bootcamp\Desktop\tweet\Day1\getprime\tes
+ts\tests.js:12:17)
+
+2) Get Prime Numbers tests  Case for some false values should return '[]' for ne
+gative integers
+  Message:
+    TypeError: myApp.getPrime is not a function
+  Stack:
+    TypeError: myApp.getPrime is not a function
+        at Object.<anonymous> (C:\Users\bootcamp\Desktop\tweet\Day1\getprime\tes
+ts\tests.js:16:17)
+
+3) Get Prime Numbers tests  Case for some false values should return '[]' for 0
+  Message:
+    TypeError: myApp.getPrime is not a function
+  Stack:
+    TypeError: myApp.getPrime is not a function
+        at Object.<anonymous> (C:\Users\bootcamp\Desktop\tweet\Day1\getprime\tes
+ts\tests.js:20:17)
+
+4) Get Prime Numbers tests  Case for some false values should return '[]' for 1
+  Message:
+    TypeError: myApp.getPrime is not a function
+  Stack:
+    TypeError: myApp.getPrime is not a function
+        at Object.<anonymous> (C:\Users\bootcamp\Desktop\tweet\Day1\getprime\tes
+ts\tests.js:24:17)
+
+5) Get Prime Numbers tests  Case for some false values should return '[]' for bo
+oleans
+  Message:
+    TypeError: myApp.getPrime is not a function
+  Stack:
+    TypeError: myApp.getPrime is not a function
+        at Object.<anonymous> (C:\Users\bootcamp\Desktop\tweet\Day1\getprime\tes
+ts\tests.js:28:17)
+
+6) Get Prime Numbers tests  Case for some false values Tests for other situation
+s should return [2] for argument 2
+  Message:
+    TypeError: myApp.getPrime is not a function
+  Stack:
+    TypeError: myApp.getPrime is not a function
+        at Object.<anonymous> (C:\Users\bootcamp\Desktop\tweet\Day1\getprime\tes
+ts\tests.js:34:17)
+
+7) Get Prime Numbers tests  Case for some false values Tests for other situation
+s should return [2,3,5] for argument 6
+  Message:
+    TypeError: myApp.getPrime is not a function
+  Stack:
+    TypeError: myApp.getPrime is not a function
+        at Object.<anonymous> (C:\Users\bootcamp\Desktop\tweet\Day1\getprime\tes
+ts\tests.js:38:17)
+
+8) Get Prime Numbers tests  Case for some false values Tests for other situation
+s should return [2,3,5,7] for argument 10
+  Message:
+    TypeError: myApp.getPrime is not a function
+  Stack:
+    TypeError: myApp.getPrime is not a function
+        at Object.<anonymous> (C:\Users\bootcamp\Desktop\tweet\Day1\getprime\tes
+ts\tests.js:42:17)
+
+9) Get Prime Numbers tests  Case for some false values Tests for other situation
+s should return [2,3,5,7,11,13,17,19] for argument 20
+  Message:
+    TypeError: myApp.getPrime is not a function
+  Stack:
+    TypeError: myApp.getPrime is not a function
+        at Object.<anonymous> (C:\Users\bootcamp\Desktop\tweet\Day1\getprime\tes
+ts\tests.js:46:17)
+
+10) Get Prime Numbers tests  Case for some false values Tests for other situatio
+ns should return [2,3,5,7,11,13,17,19] for string argument '20'
+  Message:
+    TypeError: myApp.getPrime is not a function
+  Stack:
+    TypeError: myApp.getPrime is not a function
+        at Object.<anonymous> (C:\Users\bootcamp\Desktop\tweet\Day1\getprime\tes
+ts\tests.js:50:17)
+
+10 specs, 10 failures
+Finished in 0.047 seconds
+
+
+C:\Users\bootcamp\Desktop\tweet\Day1\getprime\tests>cd day1
+The system cannot find the path specified.
+
+C:\Users\bootcamp\Desktop\tweet\Day1\getprime\tests>cd ,,
+C:\Users\bootcamp\Desktop\tweet\Day1\getprime\tests
+
+C:\Users\bootcamp\Desktop\tweet\Day1\getprime\tests>cd ,,
+C:\Users\bootcamp\Desktop\tweet\Day1\getprime\tests
+
+C:\Users\bootcamp\Desktop\tweet\Day1\getprime\tests>cd ..
+
+C:\Users\bootcamp\Desktop\tweet\Day1\getprime>cd ..
+
+C:\Users\bootcamp\Desktop\tweet\Day1>jasmine oop.js
+Started
+FFFFFFF
+
+Failures:
+1) Car Class: Create a car, make it drive The car should be a type of `object`,
+and an instance of the `Car` class
+  Message:
+    ReferenceError: Car is not defined
+  Stack:
+    ReferenceError: Car is not defined
+        at Object.<anonymous> (C:\Users\bootcamp\Desktop\tweet\Day1\oop.js:6:23)
+
+
+2) Car Class: Create a car, make it drive The car should be called 'General' if
+no name is passed as a parameter
+  Message:
+    ReferenceError: Car is not defined
+  Stack:
+    ReferenceError: Car is not defined
+        at Object.<anonymous> (C:\Users\bootcamp\Desktop\tweet\Day1\oop.js:12:20
+)
+
+3) Car Class: Create a car, make it drive The car name and model should be a pro
+perty of the car
+  Message:
+    ReferenceError: Car is not defined
+  Stack:
+    ReferenceError: Car is not defined
+        at Object.<anonymous> (C:\Users\bootcamp\Desktop\tweet\Day1\oop.js:18:25
+)
+
+4) Car Class: Create a car, make it drive The car shoud have four (4) doors exce
+pt its a Porshe or Koenigsegg
+  Message:
+    ReferenceError: Car is not defined
+  Stack:
+    ReferenceError: Car is not defined
+        at Object.<anonymous> (C:\Users\bootcamp\Desktop\tweet\Day1\oop.js:24:23
+)
+
+5) Car Class: Create a car, make it drive The car shoud have four (4) wheels exc
+ept its a type of trailer
+  Message:
+    ReferenceError: Car is not defined
+  Stack:
+    ReferenceError: Car is not defined
+        at Object.<anonymous> (C:\Users\bootcamp\Desktop\tweet\Day1\oop.js:35:22
+)
+
+6) Car Class: Create a car, make it drive The Trailer should have speed 0 km/h u
+ntil you put `the pedal to the metal`
+  Message:
+    ReferenceError: Car is not defined
+  Stack:
+    ReferenceError: Car is not defined
+        at Object.<anonymous> (C:\Users\bootcamp\Desktop\tweet\Day1\oop.js:45:22
+)
+
+7) Car Class: Create a car, make it drive The car drive function should return t
+he instance of the Car class
+  Message:
+    ReferenceError: Car is not defined
+  Stack:
+    ReferenceError: Car is not defined
+        at Object.<anonymous> (C:\Users\bootcamp\Desktop\tweet\Day1\oop.js:52:22
+)
+
+7 specs, 7 failures
+Finished in 0.016 seconds

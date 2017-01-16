@@ -1,0 +1,22 @@
+create a new repo
+*****************
+echo "# Day1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/tweethat/Day1.git
+git push -u origin master
+
+
+…or push an existing repository from the command line
+******************************************************
+
+git remote add origin git@github.com:tweethat/Day2.git
+git push -u origin master
+
+
+git push --set-upstream origin master
+
+to pull information from the repo and create a branch
+*****************************************************
+git pull origin master
